@@ -41,7 +41,7 @@ install_requires = [
     "ortools",
     "iso3166",
     "chardet",
-    "shapely",
+    "shapely<2.0.0",
 ]
 
 setup(
